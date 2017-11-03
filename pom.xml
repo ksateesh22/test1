@@ -25,7 +25,7 @@
 
 <distributionManagement>
          <repository>
-                 <id>devrepo</id>
+                 <id>Snapshots</id>
                  <name>Internal Repository</name>
                  <url>http://192.168.152.130:8081/#browse/browse/components:maven-snapshots</url>
          </repository>

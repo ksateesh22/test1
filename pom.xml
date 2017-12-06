@@ -5,7 +5,7 @@
   <groupId>Sample</groupId>
   <artifactId>sample</artifactId>
   <version>${version}</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>sample</name>
   <url>http://maven.apache.org</url>
@@ -23,23 +23,7 @@
     </dependency>
   </dependencies>
 
-<distributionManagement>
-         <repository>
-                 <id>devrepo</id>
-                 <name>Internal Repository</name>
-                 <url>http://192.168.152.131:8081/#browse/browse/components:maven-snapshots</url>
-         </repository>
 
-          <snapshotRepository>
-                       <id>Snapshots</id>
-                            <name>snapshotRepo</name>
-                                 <url>http://192.168.152.131:8081/repository/maven-snapshots/</url>
-                                  </snapshotRepository>
-                          </distributionManagement>
-
-
-
-  
  
 	  
 	  <build>
